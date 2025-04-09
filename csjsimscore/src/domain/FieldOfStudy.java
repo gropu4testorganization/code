@@ -9,23 +9,27 @@ package domain;
  * @author cslab
  */
 public class FieldOfStudy {
-    int id;
-    int departementid;
+    String name;
+    int Departementid;
 
-    public int getId() {
-        return id;
+    public String getName() {
+        return name;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getDepartementid() {
-        return departementid;
+        return Departementid;
     }
 
     public void setDepartementid(int departementid) {
-        this.departementid = departementid;
+        this.Departementid = departementid;
     }
-    
 }
+    
+
+   
+    
+
